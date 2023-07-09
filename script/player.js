@@ -50,13 +50,13 @@ function playpause() {
 }
 
 function devplay() {
-    document.getElementById('pp').src = "files/hfa/buttons/player_play.svg";
-    document.getElementById('pp1').src = "files/hfa/buttons/player_play.svg";
+    document.getElementById('pp').src = "img/buttons/player_play.svg";
+    document.getElementById('pp1').src = "img/buttons/player_play.svg";
 }
 
 function devpause() {
-    document.getElementById('pp').src = "files/hfa/buttons/player_pause.svg";
-    document.getElementById('pp1').src = "files/hfa/buttons/player_pause.svg";
+    document.getElementById('pp').src = "img/buttons/player_pause.svg";
+    document.getElementById('pp1').src = "img/buttons/player_pause.svg";
 }
 
 function nextTrack() {
