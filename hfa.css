@@ -1,0 +1,299 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0;
+}
+
+body {
+    background-color: #1A1A1D;
+}
+
+.fullplayer {
+    background-color: #1A1A1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    transition: 1s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.fullplayer_background-cover {
+    background-image: url();
+    filter: blur(10px);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.fullplayer_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 370px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: #1A1A1D solid 1px;
+    z-index: 1;
+}
+
+.seek_slider {
+    height: 5px;
+    width: 200px;
+    cursor: pointer;
+    accent-color: aqua;
+}
+
+.current-time,
+.total-duration {
+    padding: 10px;
+    font-family: opensans;
+    color: white;
+}
+
+.audioline {
+    margin: 15px;
+    border-radius: 25px;
+    width: 400px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniplayer {
+    background-color: #1A1A1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    transition: 1s;
+    opacity: 1;
+    z-index: 1;
+}
+
+.miniplayer_background-cover {
+    background-image: url();
+    filter: blur(10px);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    z-index: 0;
+}
+
+.miniplayer_button,
+.fullplayer_button {
+    font-family: opensans;
+    text-decoration: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: .5s;
+    user-select: none;
+    color: white;
+}
+
+.miniplayer_button_secret {
+    text-decoration: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.miniplayer_button_size,
+.fullplayer_button_size {
+    width: 21px;
+    height: 21px;
+}
+
+.songname,
+.artistname {
+    text-align: center;
+    font-family: opensans;
+    color: white;
+}
+
+.menu_base {
+    width: 100%;
+    text-align: center;
+}
+
+.menu_links {
+    margin: 7.5px 0px;
+    text-align: center;
+}
+
+.menu_buttons {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%
+}
+
+.menu_playbutton {
+    user-select: none;
+    cursor: pointer;
+}
+
+.menu_playbutton:hover {
+    content: url(https://ult11.github.io/files/hfa/buttons/menu_play_filled.svg);
+}
+
+.menu_line {
+    border: 1px solid slategray;
+}
+
+.menu_trackcard {
+    margin: 3px 20px;
+}
+
+@media screen and (orientation: landscape) {
+    .miniplyaer_cover {
+        width: 100px;
+        height: 100px;
+        border-radius: 9px;
+    }
+
+    .miniplayer_layer {
+        width: 400px;
+        text-align: center;
+    }
+
+    .miniplayer_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: #1A1A1D solid 1px;
+        z-index: 1;
+    }
+
+    .fullplayer_songname {
+        font-size: 27px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .fullplayer_artistname {
+        font-size: 20px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .miniplayer_songname {
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .miniplayer_artistname {
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    h2.menu_trackinfo {
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        font-family: opensans;
+    }
+
+    h4.menu_trackinfo {
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        font-family: opensans;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .fullplayer_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .miniplyaer_cover {
+        width: 0px;
+        height: 0px;
+    }
+
+    .miniplayer_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        height: 100px;
+    }
+
+    .miniplayer_layer {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 300px;
+        text-align: center;
+    }
+
+    h2.menu_trackinfo {
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        font-family: opensans;
+        font-size: 22px;
+    }
+
+    h4.menu_trackinfo {
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        font-family: opensans;
+        font-size: 17px;
+    }
+
+    .fullplayer_songname {
+        font-size: 28px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .fullplayer_artistname {
+        font-size: 22px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .miniplayer_songname {
+        font-size: 20px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+
+    .miniplayer_artistname {
+        font-size: 16px;
+        text-align: center;
+        font-family: opensans;
+        color: white;
+    }
+}
