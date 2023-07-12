@@ -255,7 +255,7 @@ const hfa = [
         cover: 'img/covers/fran2.jpg',
     },
     {
-        songname: "A Cruel Angel's Thesis (Director's Edit Version)",
+        songname: "A Cruel Angel's Thesis",
         artistname: 'Yoko Takahashi, Shiro Sagisu',
         music: '1f-3c6hokq-p58c7zLhngI9NixMUCBg_B',
         cover: 'img/covers/acruelangelsthesis.jpg',
