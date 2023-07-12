@@ -227,6 +227,42 @@ const hfa = [
     },
     //обновить позже ^
     {
+        songname: 'Nippon Egao Hyakkei',
+        artistname: 'Momokurotei Ichimon',
+        music: '1MfBvqVhYEHZspfRsycxDJhYH5PsK09hS',
+        cover: 'img/covers/nipponegaohyakkei.jpg',
+    },
+    {
+        songname: 'HON-NO',
+        artistname: 'EMPiRE',
+        music: '1C1K3KEt7tPFFJxcWt_pNzCDlF7w_6lAy',
+        cover: 'img/covers/honno.jpg',
+    },
+    {
+        songname: 'おもいでしりとり',
+        artistname: 'DIALOGUE+',
+        music: '1Mo4YLqU9KYOED2uGKBNg_sWT0J-0kiTF',
+        cover: 'img/covers/dialogue+.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
         songname: 'x',
         artistname: 'x',
         music: 'x',
@@ -273,7 +309,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 36;
+let trackindex = 39;
+
+const def = 39;
 
 
 

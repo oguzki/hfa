@@ -61,7 +61,7 @@ function devpause() {
 
 function nextTrack() {
     if (trackindex === 0) {
-        trackindex = 36;
+        trackindex = def;
     } else {
         trackindex = trackindex - 1;
         devplay();
@@ -70,7 +70,7 @@ function nextTrack() {
 }
 
 function prevTrack() {
-    if (trackindex > 35) {
+    if (trackindex > (def - 1)) {
         trackindex = 0;
     } else {
         trackindex = trackindex + 1;
@@ -150,10 +150,13 @@ function playerupdate() {
     songname_fullplayer.textContent = hfa[trackindex].songname;
     artistname_fullplayer.textContent = hfa[trackindex].artistname;
 
-    if (trackindex === 0) {
-        nextsong_fullplayer.textContent = "Next Song: " + hfa[36].songname
-    } else {
-        nextsong_fullplayer.textContent = "Next Song: " + hfa[trackindex - 1].songname
+    switch (trackindex) {
+        case 0:
+            nextsong_fullplayer.textContent = "Next Song: " + hfa[def].songname;
+            break;
+        default:
+            nextsong_fullplayer.textContent = "Next Song: " + hfa[trackindex - 1].songname;
+            break;
     }
 
     cover_fullplayer.src = hfa[trackindex].cover;
