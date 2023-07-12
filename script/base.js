@@ -243,22 +243,28 @@ const hfa = [
         cover: 'img/covers/dialogue+.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: '大河よ共に泣いてくれ',
+        artistname: 'FranChouChou',
+        music: '1IJsMqFaAM7IClDX6ZTQEd8o3qMCZVlIp',
+        cover: 'img/covers/fran1.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: '夢を手に、戻れる場所もない日々を',
+        artistname: 'FranChouChou',
+        music: '1JDfRpiEXCUYX1DTgCPAqQs43oEL08CuZ',
+        cover: 'img/covers/fran2.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: "A Cruel Angel's Thesis (Director's Edit Version)",
+        artistname: 'Yoko Takahashi, Shiro Sagisu',
+        music: '1f-3c6hokq-p58c7zLhngI9NixMUCBg_B',
+        cover: 'img/covers/acruelangelsthesis.jpg',
+    },
+    {
+        songname: 'Komm, süsser Tod',
+        artistname: 'Arianne',
+        music: '1_UJOoOl5ql6C0_uR8s19QnpU0LisRBjS',
+        cover: 'img/covers/kommsussertod.jpg',
     },
     {
         songname: 'x',
@@ -307,9 +313,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 39;
+let trackindex = 43;
 
-const def = 39;
+const def = 43;
 
 
 
