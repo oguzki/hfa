@@ -50,31 +50,31 @@ const hfa = [
         music: '1l17GaA5yyMpcLpXONpYG-cTR1gwjpY-v',
         cover: 'img/covers/fran.jpg',
     },
-    //обновить позже
     {
         songname: '光へ',
         artistname: 'FranChouChou',
-        music: '1R9q7FCWNOc_REJ61JkTSzYXMTmETg4wt',
+        music: '1Nw4nemEtPjr-IKYnpZ1dnz64IXWTdaCV',
         cover: 'img/covers/hikarie.jpg',
     },
     {
         songname: 'Kago no Naka ni Tori',
         artistname: 'yourness',
-        music: '1xAcwAfBFoQ4NV2PhywJR4pSXgJ15ugTi',
+        music: '1Z5arX7kys-yGUrezEjzmK-2mDNKkwhWA',
         cover: 'img/covers/kagononakanitori.jpg',
     },
     {
         songname: 'Aoibridge',
         artistname: 'Sayuri',
-        music: '1NPf1uA8TRabLdfeq4Nutp_gFSSEmYFjG',
+        music: '1cWYnuqFGi-oUbvlO-fu8quzcp5bFS-9r',
         cover: 'img/covers/aoibridge.jpg',
     },
     {
         songname: 'イエスタディをうたって',
         artistname: 'agehasprings feat あに',
-        music: '1rGVCNWHWs57pj-o28U4lY5l6YsG2IFrr',
+        music: '1EC2bvKXBvGvVj54cwOodpx4ZA35tFBfW',
         cover: 'img/covers/!nocover.jpg',
     },
+    //обновить позже
     {
         songname: 'Zen Zen Zense (Movie Version)',
         artistname: 'RADWIMPS',
