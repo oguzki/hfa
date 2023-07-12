@@ -44,13 +44,13 @@ const hfa = [
         music: '1sRBCMYwd53Za7Y_duE58cMYBNYzbW-27',
         cover: 'img/covers/endlesshappyworld.jpg',
     },
-    //обновить позже
     {
         songname: '徒花ネクロマンシー',
         artistname: 'FranChouChou',
-        music: '1jFoKo08JKK94qkkkY-_RPHtX6pveYz_I',
+        music: '1l17GaA5yyMpcLpXONpYG-cTR1gwjpY-v',
         cover: 'img/covers/fran.jpg',
     },
+    //обновить позже
     {
         songname: '光へ',
         artistname: 'FranChouChou',
