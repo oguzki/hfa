@@ -5,45 +5,46 @@ const hfa = [
     {
         songname: 'Button',
         artistname: 'PENGUIN RESEARCH',
-        music: '1PT61xh_gmy_WQ9xiWe8dCNhtR7NqDf3h',
+        music: '1CxNufIFFDsCAW4wAUwmbpf1eTeusyA6t',
         cover: 'img/covers/button.jpg',
     },
     {
         songname: 'Ready to',
         artistname: 'Michiru Kagemori',
-        music: '146QDOz94vGmQmM4prDFZGYgEbw-uz55n',
+        music: '1ud0trWPiLItQPvPV0h1vmZecI02IfVZ6',
         cover: 'img/covers/readyto.jpg',
     },
     {
         songname: 'セイシュンゼミナール',
         artistname: 'Study',
-        music: '1-PPR7KKs1FwjfczuIfsh7oXjQh0rtR7G',
+        music: '1WugkZ2fHp27zM_KatooSAA7EAK2kiDYb',
         cover: 'img/covers/study.jpg',
     },
     {
         songname: 'Can now, Can now',
         artistname: 'Study',
-        music: '1HGUdR-lZqJS-MYuo5NkLMFXuohwEwJq7',
+        music: '1fTicAK57WyWOdDhlAGYUIOnhHP3h6uGE',
         cover: 'img/covers/cannow.jpg',
     },
     {
         songname: 'Houkagono Liberty',
         artistname: 'halca',
-        music: '1UNUkLkiXfjdGlMN4cdncr6HY_hyCmyuv',
+        music: '1eo8yklYMcGBGdF_uNUJ3RiYltQYrzR8J',
         cover: 'img/covers/houkagonoliberty.jpg',
     },
     {
         songname: 'Kyoumu Densen',
         artistname: 'ALI PROJECT',
-        music: '1UlfwohoO0B14ldxXDsDQUojSBVT4hN3u',
+        music: '1vUrp3G_OSsVkqdJqFCOhImlY2w9haw5H',
         cover: 'img/covers/kyoumudensen.jpg',
     },
     {
         songname: 'Endless happy world',
         artistname: 'Daisuke Ono',
-        music: '1Qd-oaGPiOlKmxcW7OctJzM7DhO0XpzNB',
+        music: '1sRBCMYwd53Za7Y_duE58cMYBNYzbW-27',
         cover: 'img/covers/endlesshappyworld.jpg',
     },
+    //обновить позже
     {
         songname: '徒花ネクロマンシー',
         artistname: 'FranChouChou',
@@ -224,6 +225,7 @@ const hfa = [
         music: '1Fk7Lb28hZvdhhVxQh8G0SIaf_rrkt9Wf',
         cover: 'img/covers/hz2.jpg',
     },
+    //обновить позже ^
     {
         songname: 'x',
         artistname: 'x',
