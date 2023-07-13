@@ -331,7 +331,15 @@
         if (event.keyCode === 32 && event.target === document.body) {
             event.preventDefault();
         }
-    });</script>
+    });
+
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: hfa[trackindex].songname,
+            artist: hfa[trackindex].artistname,
+        });
+    }
+</script>
 <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
 <script type="text/javascript">
     hotkeys('esc', function (event) {

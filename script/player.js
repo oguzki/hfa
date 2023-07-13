@@ -145,7 +145,7 @@ function playerupdate() {
     icon.forEach(function (element) {
         element.setAttribute('href', hfa[trackindex].cover);
     });
-    document.title = hfa[trackindex].songname;
+    document.title = hfa[trackindex].songname + " - " + hfa[trackindex].artistname;
     // full player
     songname_fullplayer.textContent = hfa[trackindex].songname;
     artistname_fullplayer.textContent = hfa[trackindex].artistname;
