@@ -337,6 +337,7 @@
         navigator.mediaSession.metadata = new MediaMetadata({
             title: hfa[trackindex].songname,
             artist: hfa[trackindex].artistname,
+            artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
         });
     }
 </script>
