@@ -142,16 +142,10 @@ function playerstart() {
 }
 
 function playerupdate() {
-    if ('mediaSession' in navigator) {
-        navigator.mediaSession.metadata = new MediaMetadata({
-            title: hfa[trackindex].songname,
-            artist: hfa[trackindex].artistname,
-            artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
-        });
-    }
-
+    icon.forEach(function (element) {
+        element.setAttribute('href', hfa[trackindex].cover);
+    });
     document.title = hfa[trackindex].songname + " - " + hfa[trackindex].artistname;
-    
     // full player
     songname_fullplayer.textContent = hfa[trackindex].songname;
     artistname_fullplayer.textContent = hfa[trackindex].artistname;
@@ -174,4 +168,11 @@ function playerupdate() {
 
     cover_miniplayer.src = hfa[trackindex].cover;
     background_miniplayer.style.backgroundImage = "url(" + hfa[trackindex].cover + ")";
+
+    //other
+    navigator.mediaSession.metadata = new MediaMetadata({
+        title: hfa[trackindex].songname,
+        artist: hfa[trackindex].artistname,
+        artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
+    });
 }
