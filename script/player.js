@@ -142,7 +142,6 @@ function playerstart() {
 }
 
 function playerupdate() {
-    //спасибо chatgpt за кусок кода ниже
     if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: hfa[trackindex].songname,
