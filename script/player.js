@@ -166,6 +166,24 @@ function playerupdate() {
     songname_miniplayer.textContent = hfa[trackindex].songname;
     artistname_miniplayer.textContent = hfa[trackindex].artistname;
 
+    switch (trackindex) {
+        case 43:
+            cover_fullplayer.style.height = "212px";
+            cover_miniplayer.style.height = "85px";
+            break;
+        case 19:
+            cover_fullplayer.style.height = "222px";
+            cover_miniplayer.style.height = "89px";
+            break;
+        case 5:
+            cover_fullplayer.style.height = "219px";
+            cover_miniplayer.style.height = "88px";
+            break;
+        default:
+            cover_fullplayer.style.height = "250px";
+            cover_miniplayer.style.height = "100px";
+            break;
+    }
     cover_miniplayer.src = hfa[trackindex].cover;
     background_miniplayer.style.backgroundImage = "url(" + hfa[trackindex].cover + ")";
 

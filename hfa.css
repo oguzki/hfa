@@ -74,7 +74,7 @@ footer {
 }
 
 .miniplayer {
-    background-color: #1A1A1D;
+    background-color: #1d1a1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +88,7 @@ footer {
 
 .miniplayer_background-cover {
     filter: blur(10px);
+    background-color: #363636;
     background-position: center;
     background-size: cover;
     position: fixed;
@@ -130,6 +131,10 @@ footer {
 .menu_base {
     width: 100%;
     text-align: center;
+    background-image: url(img/blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 .menu_links {
@@ -161,7 +166,7 @@ footer {
 }
 
 @media screen and (orientation: landscape) {
-    .miniplyaer_cover {
+    .miniplayer_cover {
         width: 100px;
         height: 100px;
         border-radius: 9px;
@@ -236,7 +241,7 @@ footer {
         z-index: 1;
     }
 
-    .miniplyaer_cover {
+    .miniplayer_cover {
         width: 0px;
         height: 0px;
     }
