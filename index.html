@@ -332,14 +332,6 @@
             event.preventDefault();
         }
     });
-
-    if ('mediaSession' in navigator) {
-        navigator.mediaSession.metadata = new MediaMetadata({
-            title: hfa[trackindex].songname,
-            artist: hfa[trackindex].artistname,
-            artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
-        });
-    }
 </script>
 <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
 <script type="text/javascript">

@@ -169,4 +169,14 @@ function playerupdate() {
     cover_miniplayer.src = hfa[trackindex].cover;
     background_miniplayer.style.backgroundImage = "url(" + hfa[trackindex].cover + ")";
 
+
+    //спасибо chatgpt за кусок кода ниже
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: hfa[trackindex].songname,
+            artist: hfa[trackindex].artistname,
+            artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
+        });
+    }
+
 }
