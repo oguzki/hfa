@@ -12,6 +12,10 @@ body {
 footer {
     background-color: #363636;
     height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
 }
 
 .fullplayer {
