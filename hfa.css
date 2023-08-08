@@ -158,7 +158,7 @@ footer {
 }
 
 .menu_playbutton:hover {
-    content: url(https://rizobyte.github.io/HFA/img/buttons/menu_play_filled.svg);
+    content: url(img/buttons/menu_play_filled.svg);
 }
 
 .menu_line {
