@@ -132,24 +132,16 @@ footer {
     color: white;
 }
 
-.menu_base {
-    width: 100%;
-    text-align: center;
-    background-image: url(img/blur.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-}
-
-.menu_links {
-    margin: 7.5px 0px;
-    text-align: center;
-}
-
 .menu_buttons {
     width: 40px;
     height: 40px;
-    border-radius: 100%
+    margin: 5px 0px;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.menu_buttons:hover {
+    transform: scale(1.2) rotate(25deg);
 }
 
 .menu_playbutton {
@@ -218,6 +210,10 @@ footer {
         color: white;
     }
 
+    .menu_quotes {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
     h2.menu_trackinfo {
         color: white;
         cursor: pointer;
@@ -230,6 +226,30 @@ footer {
         cursor: pointer;
         user-select: none;
         font-family: opensans;
+    }
+
+    .menu_base {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(img/IMG_20230816_212653.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+    }
+
+    .menu_logo {
+        width: 200px;
+        height: 200px;
+        content: url(img/hfablack.png);
+    }
+
+    .menu_links {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
     }
 }
 
@@ -307,5 +327,28 @@ footer {
         text-align: center;
         font-family: opensans;
         color: white;
+    }
+
+    .menu_quotes {
+        display: none;
+    }
+
+    .menu_base {
+        width: 100%;
+        background-image: url(img/IMG_20230816_212653.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        text-align: center;
+    }
+
+    .menu_logo {
+        width: 150;
+        height: 150px;
+        content: url(img/hfawhite.png);
+    }
+
+    .menu_links {
+        text-align: center;
     }
 }

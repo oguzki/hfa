@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" sizes="192x192" href="img/hfa.png">
+    <link rel="icon" sizes="192x192" href="img/hfawhite.png">
     <title>HFA 2.0</title>
     <link rel="stylesheet" href="hfa.css">
     <link rel="stylesheet" href="https://rizobyte.github.io/font-base/fonts.css">
@@ -82,16 +82,21 @@
     <div style="height: 120px;"></div>
 
     <header class="menu_base">
-        <img src="img/newhfa.jpg" style="width: 150px; height: 150px; border-radius: 10px;">
+        <img src="img/hfawhite.png" class="menu_logo">
+        <div class="menu_quotes">
+            <h2 style="font-family: poiretone; padding: 0px 10px;" id="quote">-</h2>
+            <h3 style="font-family: poiretone; text-align: right; font-style: italic; padding: 0px 5px;" id="author"></h3>
+        </div>
         <div class="menu_links">
             <a href="https://bit.ly/hfa-vk" target="_blank"><img src="img/logo/vk.png" class="menu_buttons"></a>
             <a href="https://spoti.fi/3nnbWus" target="_blank"><img src="img/logo/spotify.png" class="menu_buttons"></a>
             <a href="https://bit.ly/HFA-YT" target="_blank"><img src="img/logo/youtube.png" class="menu_buttons"></a>
         </div>
-        <a class="menu_playbutton" onclick="playerstart()" onmouse><img src="img/buttons/menu_play.svg"></a>
     </header>
 
-    <hr style="border: 1px solid white; margin-top: 3px;">
+    <a class="menu_playbutton" style="display: none;" onclick="playerstart()" onmouse><img src="img/buttons/menu_play.svg"></a>
+
+    <hr style="border: 1px solid white;">
     <div class="menu_trackcard" onclick="trackindex = 43, playerstart()">
         <h2 class="menu_trackinfo">Komm, süsser Tod</h2>
         <h4 class="menu_trackinfo">Arianne</h4>
@@ -332,6 +337,7 @@
 
 <script src="script/player.js"></script>
 <script src="script/base.js"></script>
+<script src="script/quotes.js"></script>
 
 <script>
     window.addEventListener('keydown', function (event) {
