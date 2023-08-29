@@ -16,6 +16,11 @@ const artistname_miniplayer = document.getElementById('artistname_miniplayer');
 const cover_miniplayer = document.getElementById('cover_miniplayer');
 const background_miniplayer = document.getElementById('background_miniplayer');
 
+const miniplayer = document.getElementById('miniplayer');
+const miniplayer_info = document.getElementById('miniplayer_info');
+const miniplayer_pods = document.getElementById('miniplayer_pods');
+const miniplayer_layer = document.getElementById('miniplayer_layer');
+
 var perem = 'pause';
 
 let volume = document.getElementById('volume');
@@ -129,6 +134,13 @@ function setUpdate() {
 // player play/update
 
 function playerstart() {
+    miniplayer.style.height = "120px";
+    background_miniplayer.style.height = "120px";
+    miniplayer_pods.style.height = "120px";
+    miniplayer_info.style.height = "100px";
+    miniplayer_layer.style.display = "block";
+
+
     clearInterval(updateTimer);
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";

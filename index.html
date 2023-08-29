@@ -53,13 +53,13 @@
         </div>
     </header>
 
-    <header class="miniplayer" id="miniplayer">
-        <div class="miniplayer_background-cover" id="background_miniplayer"></div>
-        <div class="miniplayer_info">
+    <header id="miniplayer">
+        <div id="background_miniplayer"></div>
+        <div id="miniplayer_info">
             <img src="img/empty.png" class="miniplayer_cover" id="cover_miniplayer">
-            <div class="miniplayer_layer">
-                <h2 class="miniplayer_songname" id="songname_miniplayer">⠀</h2>
-                <h3 class="miniplayer_artistname" id="artistname_miniplayer">⠀</h3>
+            <div id="miniplayer_layer">
+                <h2 id="songname_miniplayer">⠀</h2>
+                <h3 id="artistname_miniplayer">⠀</h3>
                 <div style="display: flex; justify-content: space-between; margin-top: 3px;">
                     <a class="miniplayer_button"><img class="miniplayer_button_size"
                             src="img/buttons/player_empty.png"></a>
@@ -80,13 +80,14 @@
         </div>
     </header>
 
-    <div style="height: 120px;"></div>
+    <div id="miniplayer_pods"></div>
 
     <header class="menu_base">
         <img src="img/hfawhite.png" class="menu_logo">
         <div class="menu_quotes">
-            <h2 style="font-family: poiretone; padding: 0px 10px;" id="quote">-</h2>
-            <h3 style="font-family: poiretone; text-align: right; font-style: italic; padding: 0px 5px;" id="author"></h3>
+            <h2 style="font-family: poiretone; color: white;" id="quote">-</h2>
+            <h3 style="font-family: poiretone; text-align: right; font-style: italic; color: white;" id="author">
+            </h3>
         </div>
         <div class="menu_links">
             <a href="https://bit.ly/hfa-vk" target="_blank"><img src="img/logo/vk.png" class="menu_buttons"></a>
@@ -95,7 +96,8 @@
         </div>
     </header>
 
-    <a class="menu_playbutton" style="display: none;" onclick="playerstart()" onmouse><img src="img/buttons/menu_play.svg"></a>
+    <a class="menu_playbutton" style="display: none;" onclick="playerstart()" onmouse><img
+            src="img/buttons/menu_play.svg"></a>
 
     <hr style="border: 1px solid white;">
     <div class="menu_trackcard" onclick="trackindex = 43, playerstart()">

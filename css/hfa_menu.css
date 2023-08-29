@@ -50,7 +50,7 @@ footer {
 @media screen and (orientation: landscape) {
 
     .menu_quotes {
-        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
     }
 
     h2.menu_trackinfo {
@@ -72,7 +72,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(../img/IMG_20230816_212653.jpg);
+        background-image: url(../img/IMG_20230819_214431.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center center;
@@ -81,14 +81,16 @@ footer {
     .menu_logo {
         width: 200px;
         height: 200px;
-        content: url(../img/hfablack.png);
+        content: url(../img/hfawhite.png);
     }
 
     .menu_links {
-        text-align: center;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        margin: 0px 25px;
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -116,7 +118,7 @@ footer {
 
     .menu_base {
         width: 100%;
-        background-image: url(../img/IMG_20230816_212653.jpg);
+        background-image: url(../img/IMG_20230819_214431.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center center;

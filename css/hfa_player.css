@@ -9,6 +9,7 @@
     transition: 1s;
     z-index: -1;
     opacity: 0;
+    user-select: none;
 }
 
 .fullplayer_background-cover {
@@ -57,26 +58,27 @@
     align-items: center;
 }
 
-.miniplayer {
+#miniplayer {
     background-color: #1d1a1c;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 0px;
     width: 100%;
     position: fixed;
     transition: 1s;
     opacity: 1;
     z-index: 1;
+    user-select: none;
 }
 
-.miniplayer_background-cover {
+#background_miniplayer {
     filter: blur(10px);
     background-color: #363636;
     background-position: center;
     background-size: cover;
     position: fixed;
-    height: 120px;
+    height: 0px;
     width: 100%;
     z-index: 0;
 }
@@ -112,6 +114,12 @@
     color: white;
 }
 
+#miniplayer_pods {
+    height: 0px;
+    width: 100%;
+    transition: 1s;
+}
+
 @media screen and (orientation: landscape) {
     .miniplayer_cover {
         width: 100px;
@@ -119,16 +127,17 @@
         border-radius: 9px;
     }
 
-    .miniplayer_layer {
+    #miniplayer_layer {
         width: 400px;
         text-align: center;
+        display: none;
     }
 
-    .miniplayer_info {
+    #miniplayer_info {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 0px;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
         border: #1A1A1D solid 1px;
@@ -149,13 +158,13 @@
         color: white;
     }
 
-    .miniplayer_songname {
+    #songname_miniplayer {
         text-align: center;
         font-family: opensans;
         color: white;
     }
 
-    .miniplayer_artistname {
+    #artistname_miniplayer {
         text-align: center;
         font-family: opensans;
         color: white;
@@ -179,19 +188,20 @@
         height: 0px;
     }
 
-    .miniplayer_info {
+    #miniplayer_info {
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 1;
-        height: 100px;
+        height: 0px;
     }
 
-    .miniplayer_layer {
+    #miniplayer_layer {
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         width: 300px;
         text-align: center;
+        display: none;
     }
 
     .fullplayer_songname {
@@ -208,14 +218,14 @@
         color: white;
     }
 
-    .miniplayer_songname {
+    #songname_miniplayer {
         font-size: 20px;
         text-align: center;
         font-family: opensans;
         color: white;
     }
 
-    .miniplayer_artistname {
+    #artistname_miniplayer {
         font-size: 16px;
         text-align: center;
         font-family: opensans;
