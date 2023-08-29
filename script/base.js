@@ -267,10 +267,40 @@ const hfa = [
         cover: 'img/covers/kommsussertod.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: 'Hikari No Hahen',
+        artistname: 'Yu Takahashi',
+        music: '1E05bHlEMAQg4tKfV4m6NgBGxqxKuJIx9',
+        cover: 'img/covers/hikarinohahen.jpg',
+    },
+    {
+        songname: 'なないろびより',
+        artistname: 'nano.RIPE',
+        music: '1BmIKtCX2uGUkws05GjP3f3dTzz8Tl0Ij',
+        cover: 'img/covers/nr1.jpg',
+    },
+    {
+        songname: 'こだまことだま',
+        artistname: 'nano.RIPE',
+        music: '1w9soqrDd-XkTvnA_c04lzcXKhK_iGG5z',
+        cover: 'img/covers/nr2.jpg',
+    },
+    {
+        songname: 'おかえり',
+        artistname: '...',
+        music: '1UX8VAryE78dnmQ5VOQR-LPhp37wvKbWJ',
+        cover: 'img/covers/hz3.jpg',
+    },
+    {
+        songname: 'つぎはぎもよう',
+        artistname: 'nano.RIPE',
+        music: '1z00UJ9MRaaLFDQaNymyR-vIrhb-X3a46',
+        cover: 'img/covers/nr3.jpg',
+    },
+    {
+        songname: 'Hikarunara',
+        artistname: 'Goose house',
+        music: '1oE59zhVn1nFylPGnZUbGSjdnQSQlJxkh',
+        cover: 'img/covers/Hikarunara.jpg',
     },
     {
         songname: 'パズル',
@@ -287,12 +317,22 @@ const hfa = [
         artistname: '三重野瞳',
         music: '1a4Drzjs6krQWVz1z4iahYMfdzMno7y-o',
     },
+
+    //беда
+    {
+        songname: 'おかえり',
+        artistname: '宮内れんげ、一条 蛍、越谷夏海、越谷小鞠',
+        music: '1UX8VAryE78dnmQ5VOQR-LPhp37wvKbWJ',
+        cover: 'img/covers/hz3.jpg',
+    },
     {
         songname: 'Fukashigi no Carte',
         artistname: '桜島麻衣、古賀朋絵、双葉理央、豊浜のどか、梓川かえで、牧之原翔子',
         music: '1WrgTzMbrt8OLWqWrNiOB7Frq9_I-xNPf',
         cover: 'img/covers/fukashiginocarte.jpg',
     },
+    //конец беды
+
     {
         songname: 'x',
         artistname: 'x',
@@ -313,9 +353,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 43;
+let trackindex = 49;
 
-const def = 43;
+const def = 49;
 
 
 
