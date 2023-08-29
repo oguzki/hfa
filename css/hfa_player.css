@@ -41,8 +41,8 @@
     accent-color: aqua;
 }
 
-.current-time,
-.total-duration {
+#current-time,
+#total-duration {
     padding: 10px;
     font-family: opensans;
     color: white;

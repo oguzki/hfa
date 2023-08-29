@@ -27,8 +27,8 @@ let volume = document.getElementById('volume');
 
 // timeline
 let seek_slider = document.querySelector('.seek_slider');
-let curr_time = document.querySelector('.current-time');
-let total_duration = document.querySelector('.total-duration');
+let curr_time = document.getElementById('current-time');
+let total_duration = document.getElementById('total-duration');
 
 let updateTimer;
 
