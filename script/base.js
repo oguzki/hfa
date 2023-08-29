@@ -300,7 +300,7 @@ const hfa = [
         songname: 'Hikarunara',
         artistname: 'Goose house',
         music: '1oE59zhVn1nFylPGnZUbGSjdnQSQlJxkh',
-        cover: 'img/covers/Hikarunara.jpg',
+        cover: 'img/covers/hikarunara.jpg',
     },
     {
         songname: 'パズル',
