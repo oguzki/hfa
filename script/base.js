@@ -136,7 +136,7 @@ const hfa = [
     },
     {
         songname: 'Fukashigi no Carte',
-        artistname: '...',
+        artistname: '///',
         music: '14smfoxHPoFcxeJM474aTh9BQ9mBsBgQC',
         cover: 'img/covers/fukashiginocarte.jpg',
     },
@@ -286,7 +286,7 @@ const hfa = [
     },
     {
         songname: 'おかえり',
-        artistname: '...',
+        artistname: '宮内れんげ、一条 蛍、越谷夏海、越谷小鞠',
         music: '1UX8VAryE78dnmQ5VOQR-LPhp37wvKbWJ',
         cover: 'img/covers/hz3.jpg',
     },

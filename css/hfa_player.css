@@ -1,4 +1,4 @@
-.fullplayer {
+#fullplayer {
     background-color: #1A1A1D;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     user-select: none;
 }
 
-.fullplayer_background-cover {
+#background_fullplayer {
     filter: blur(10px);
     background-position: center;
     background-size: cover;
@@ -22,16 +22,17 @@
     z-index: 0;
 }
 
-.fullplayer_info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 370px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    border: #1A1A1D solid 1px;
-    z-index: 1;
+#cover_fullplayer {
+    width: 250px;
+    height: 250px;
+    border-radius: 9px;
+}
+
+#nextsong_fullplayer {
+    margin-top: 25px;
+    color: white;
+    font-family: opensans;
+    text-align: center;
 }
 
 .seek_slider {
@@ -81,6 +82,7 @@
     height: 0px;
     width: 100%;
     z-index: 0;
+
 }
 
 .miniplayer_button,
@@ -121,6 +123,18 @@
 }
 
 @media screen and (orientation: landscape) {
+    .fullplayer_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 470px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: #1A1A1D solid 1px;
+        z-index: 1;
+    }
+
     .miniplayer_cover {
         width: 100px;
         height: 100px;
@@ -144,14 +158,14 @@
         z-index: 1;
     }
 
-    .fullplayer_songname {
+    #songname_fullplayer {
         font-size: 27px;
         text-align: center;
         font-family: opensans;
         color: white;
     }
 
-    .fullplayer_artistname {
+    #artistname_fullplayer {
         font-size: 20px;
         text-align: center;
         font-family: opensans;
@@ -186,6 +200,7 @@
     .miniplayer_cover {
         width: 0px;
         height: 0px;
+
     }
 
     #miniplayer_info {
@@ -204,14 +219,14 @@
         display: none;
     }
 
-    .fullplayer_songname {
+    #songname_fullplayer {
         font-size: 28px;
         text-align: center;
         font-family: opensans;
         color: white;
     }
 
-    .fullplayer_artistname {
+    #artistname_fullplayer {
         font-size: 22px;
         text-align: center;
         font-family: opensans;

@@ -15,23 +15,22 @@
 <style>
 </style>
 
-<body scroll="yes" style="overflow: auto; height: 1000px;" id="body">
+<body scroll="yes" id="body">
 
     <audio id="player" autoplay>
         <source src="" id="track" type="audio/mp3">
     </audio>
 
-    <header class="fullplayer" id="fullplayer">
-        <div class="fullplayer_background-cover" id="background_fullplayer"></div>
+    <header id="fullplayer">
+        <div id="background_fullplayer"></div>
         <div class="fullplayer_info">
-            <h3 style="margin-top: 25px; color: white; font-family: opensans; text-align: center;"
-                id="nextsong_fullplayer">⠀</h3>
+            <h3 id="nextsong_fullplayer">-</h3>
             <div
                 style="display: flex; justify-content: center; align-items: center; width: 250px; height: 250px; margin-top: 25px;">
-                <img src="img/empty.png" width="250px" height="250px" style="border-radius: 9px;" id="cover_fullplayer">
+                <img src="img/empty.png" id="cover_fullplayer">
             </div>
-            <h1 class="fullplayer_songname" id="songname_fullplayer">⠀</h1>
-            <h2 class="fullplayer_artistname" id="artistname_fullplayer">⠀</h2>
+            <h1 id="songname_fullplayer">-</h1>
+            <h2 id="artistname_fullplayer">-</h2>
             <div style="display: flex; justify-content: center; align-items: center;">
                 <div id="current-time">00:00</div>
                 <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
@@ -58,8 +57,8 @@
         <div id="miniplayer_info">
             <img src="img/empty.png" class="miniplayer_cover" id="cover_miniplayer">
             <div id="miniplayer_layer">
-                <h2 id="songname_miniplayer">⠀</h2>
-                <h3 id="artistname_miniplayer">⠀</h3>
+                <h2 id="songname_miniplayer">-</h2>
+                <h3 id="artistname_miniplayer">-</h3>
                 <div style="display: flex; justify-content: space-between; margin-top: 3px;">
                     <a class="miniplayer_button"><img class="miniplayer_button_size"
                             src="img/buttons/player_empty.png"></a>
