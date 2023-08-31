@@ -47,6 +47,17 @@ footer {
 
 .menu_trackcard {
     margin: 3px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu_cover {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    margin-right: 15px;
 }
 
 @media screen and (orientation: landscape) {
