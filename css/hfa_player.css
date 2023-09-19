@@ -31,7 +31,7 @@
 #nextsong_fullplayer {
     margin-top: 25px;
     color: white;
-    font-family: opensans;
+    font-family: opensans-light;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 #current-time,
 #total-duration {
     padding: 10px;
-    font-family: opensans;
+    font-family: opensans-light;
     color: white;
 }
 
@@ -87,7 +87,7 @@
 
 .miniplayer_button,
 .fullplayer_button {
-    font-family: opensans;
+    font-family: opensans-light;
     text-decoration: none;
     padding: 0px 10px;
     cursor: pointer;
@@ -112,7 +112,7 @@
 .songname,
 .artistname {
     text-align: center;
-    font-family: opensans;
+    font-family: opensans-light;
     color: white;
 }
 
@@ -161,26 +161,26 @@
     #songname_fullplayer {
         font-size: 27px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #artistname_fullplayer {
         font-size: 20px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #songname_miniplayer {
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #artistname_miniplayer {
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 }
@@ -222,28 +222,28 @@
     #songname_fullplayer {
         font-size: 28px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #artistname_fullplayer {
         font-size: 22px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #songname_miniplayer {
         font-size: 20px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 
     #artistname_miniplayer {
         font-size: 16px;
         text-align: center;
-        font-family: opensans;
+        font-family: opensans-light;
         color: white;
     }
 }
