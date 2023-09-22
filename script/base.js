@@ -303,6 +303,36 @@ const hfa = [
         cover: 'img/covers/hikarunara.jpg',
     },
     {
+        songname: 'Nanairo Symphony',
+        artistname: 'COALAMODE.',
+        music: '1bHuBBcMJRaPpR2ccEfdQNaCk3BgXDZAU',
+        cover: 'img/covers/nanairosymphony.jpg',
+    },
+    {
+        songname: 'Uso No Hibana',
+        artistname: 'Kuroneko',
+        music: '1QYi5iUhPbxsovNkNbo5q5_L-Vi_uKmUS',
+        cover: 'img/covers/usonohibana.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
+        songname: 'x',
+        artistname: 'x',
+        music: 'x',
+        cover: 'img/covers/x.jpg',
+    },
+    {
         songname: 'パズル',
         artistname: 'ROUND TABLE feat. Nino',
         music: '1ikiYg19ZfQdYsIu9LKEYjrGNCXmfYCBj',
@@ -353,9 +383,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 49;
+let trackindex = 51;
 
-const def = 49;
+const def = 51;
 
 
 
