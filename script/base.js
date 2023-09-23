@@ -315,6 +315,42 @@ const hfa = [
         cover: 'img/covers/usonohibana.jpg',
     },
     {
+        songname: 'Be Your Girl',
+        artistname: '河辺千恵子',
+        music: '1a1xcfGcBYxw_Fcv9vuJYAlh1GQYW1W8T',
+        cover: 'img/covers/beyourgirl.jpg',
+    },
+    {
+        songname: 'CHOIR JAIL',
+        artistname: 'Konomi Suzuki',
+        music: '1FfgRL0hV04mnFn4Jym3Xf6Pmh4vM9ADX',
+        cover: 'img/covers/choirjail.jpg',
+    },
+    {
+        songname: 'My Hero',
+        artistname: 'MAN WITH A MISSION',
+        music: '1NL1VuRw6YythrWAFTprr04O9iV1IkYzI',
+        cover: 'img/covers/myhero.jpg',
+    },
+    {
+        songname: 'ZERO!!',
+        artistname: 'Minami Kuribayashi',
+        music: '1Kv0kolcQn2n39yI2_sIUYEqWvmOTPKAy',
+        cover: 'img/covers/zero.jpg',
+    },
+    {
+        songname: 'Soramimi Cake',
+        artistname: 'Oranges & Lemons',
+        music: '19zFbUbx-BE2XZ3JbLsxneSpT6ATGUWvm',
+        cover: 'img/covers/oranges&lemons.webp',
+    },
+    {
+        songname: 'Raspberry Heaven',
+        artistname: 'Oranges & Lemons',
+        music: '1dn6Xq-Y6rlLkhco4UG6KY_zHZwVzENk1',
+        cover: 'img/covers/oranges&lemons.webp',
+    },
+    {
         songname: 'x',
         artistname: 'x',
         music: 'x',
@@ -383,9 +419,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 51;
+let trackindex = 57;
 
-const def = 51;
+const def = 57;
 
 
 
