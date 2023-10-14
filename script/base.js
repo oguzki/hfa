@@ -351,37 +351,136 @@ const hfa = [
         cover: 'img/covers/oranges&lemons.webp',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: 'プレパレード',
+        artistname: '逢坂大河・櫛枝実乃梨・川嶋亜美',
+        music: '1F-2t-QRUtbYFriEdGTGJSrbwxAEGkkx5',
+        cover: 'img/covers/hz4.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: 'バニラソルト',
+        artistname: 'Yui Horie',
+        music: '1Y-gJhStgwXiKi98l_FN7mw-VBerQHVcp',
+        cover: 'img/covers/yh1.jpg',
     },
     {
-        songname: 'x',
-        artistname: 'x',
-        music: 'x',
-        cover: 'img/covers/x.jpg',
+        songname: 'Silky Heart',
+        artistname: 'Yui Horie',
+        music: '1iJPXgF19Bjrdnk9r21Obq29ZS-Xr-rL4',
+        cover: 'img/covers/yh2.jpg',
+    },
+    {
+        songname: 'オトメの心得',
+        artistname: 'GARNiDELiA',
+        music: '16ogddonTfGjI5vCRcfRS7sRiti0D51N2',
+        cover: 'img/covers/g1.jpg',
+    },
+    {
+        songname: 'Tenshi no Yubikiri',
+        artistname: 'Fukuda Mai',
+        music: '1SpIsnVPD3-HuEcwGAq6JoZ08pzKczBjZ',
+        cover: 'img/covers/karekano.jpg',
+    },
+    {
+        songname: '夢の中へ',
+        artistname: 'Atsuko Enomoto, Chihiro Suzuki',
+        music: '1xeNCjNXiUkMWEwX4I4p95Eam6arqHl2i',
+        cover: 'img/covers/karekano.jpg',
+    },
+    {
+        songname: 'HIGHSCHOOL OF THE DEAD',
+        artistname: 'KISIDA KYODAN & THE AKEBOSI ROCKETS',
+        music: '12cvqa7Pn8c-J50uURuGohTxUN1B-pwim',
+        cover: 'img/covers/highschoolofthedead.jpg',
+    },
+    {
+        songname: 'Monoqlo City',
+        artistname: 'ACE COLLECTION',
+        music: '1P_Acg35FdE5fGJAj1F1sr5w7vyuZLWDk',
+        cover: 'img/covers/monoqlocity.jpg',
+    },
+    {
+        songname: 'WONDERFUL WONDER',
+        artistname: 'EDOGA-SULLIVAN',
+        music: '1p-n_dHBzcY2zxWY_-OaRgVRvbAtKP-qt',
+        cover: 'img/covers/wonderfulwonder.jpg',
+    },
+    {
+        songname: 'Hashire Jitensha',
+        artistname: 'Mishio Ogawa',
+        music: '16pyugc0u7GaOHWxbhikryMmkaxRyuEfq',
+        cover: 'img/covers/hashirejitensha.jpg',
+    },
+    {
+        songname: 'サクラサク',
+        artistname: 'Megumi Hayashibara',
+        music: '1NXK3Nuzh4_Un1dfs2px8Zc-iM8zWI2q9',
+        cover: 'img/covers/mh1.jpg',
+    },
+    {
+        songname: '君さえいれば',
+        artistname: 'Megumi Hayashibara',
+        music: '1DOeNwDo3xjyIM0uJsuo3ss05eMGxeJOi',
+        cover: 'img/covers/mh1.jpg',
+    },
+    {
+        songname: 'たゆたえ、七色',
+        artistname: 'ARCANA PROJECT',
+        music: '1casosYFHpSQ1Yug1947TaYUzZhJIn87j',
+        cover: 'img/covers/ap1.jpg',
+    },
+    {
+        songname: 'Duvet',
+        artistname: 'bôa',
+        music: '12vQRzPwbK7y_-VC7jdg9ancpW8lcFa8b',
+        cover: 'img/covers/duvet.jpg',
+    },
+    {
+        songname: 'One Room Sugar Life',
+        artistname: 'Nanawoakari',
+        music: '1qBOMMNmWA7aCgkBaGthTILG2pz2HXl8P',
+        cover: 'img/covers/oneroomsugarlife.jpg',
+    },
+    {
+        songname: 'SWEET HURT',
+        artistname: 'ReoNa',
+        music: '1AdCiv8OXk1gse1qdT7roHmkqmNXAFno8',
+        cover: 'img/covers/sweethurt.jpg',
     },
     {
         songname: 'パズル',
         artistname: 'ROUND TABLE feat. Nino',
-        music: '1ikiYg19ZfQdYsIu9LKEYjrGNCXmfYCBj',
+        music: '1V66KHICkRBfTyoNVnC6OpHzWtXVuGgbb',
+        cover: 'img/covers/pr1.jpg',
     },
     {
         songname: 'lost in the white',
         artistname: '井澤愛',
-        music: '19wCvKQbtxkzXSqKNpwm9FRzdd3yke9nS',
+        music: '1NPNzOQYcq4sao_ZXO3raC2U8IE3FnNaq',
+        cover: 'img/covers/lostinthewhite.jpg',
     },
     {
         songname: 'Dearest',
         artistname: '三重野瞳',
-        music: '1a4Drzjs6krQWVz1z4iahYMfdzMno7y-o',
+        music: '1Kxy-bnzUzL6TMrtQgfXLGHRoE6OKn2BH',
+        cover: 'img/covers/dearest.jpg',
+    },
+    {
+        songname: 'キラメク',
+        artistname: 'yozuca*',
+        music: '1nAhSJMhCSXnlhND-ExFIF0hD2zOwrpOl',
+        cover: 'img/covers/yz1.jpg',
+    },
+    {
+        songname: 'incl.',
+        artistname: 'meg rock',
+        music: '1sTrmsaM-mTAxo9-Cfz_d2fpwX-ztsaDt',
+        cover: 'img/covers/incl.jpg',
+    },
+    {
+        songname: 'Changing point',
+        artistname: 'i☆Ris',
+        music: '1zpE5KUthUYVeB9aoSKGxMFMGPNSz4EBq',
+        cover: 'img/covers/changingpoint.jpg',
     },
 
     //беда
@@ -396,6 +495,12 @@ const hfa = [
         artistname: '桜島麻衣、古賀朋絵、双葉理央、豊浜のどか、梓川かえで、牧之原翔子',
         music: '1WrgTzMbrt8OLWqWrNiOB7Frq9_I-xNPf',
         cover: 'img/covers/fukashiginocarte.jpg',
+    },
+    {
+        songname: 'プレパレード',
+        artistname: '逢坂大河・櫛枝実乃梨・川嶋亜美(釘宮理恵、堀江由衣、喜多村英梨)',
+        music: '1F-2t-QRUtbYFriEdGTGJSrbwxAEGkkx5',
+        cover: 'img/covers/hz4.jpg',
     },
     //конец беды
 
@@ -419,9 +524,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 57;
+let trackindex = 79;
 
-const def = 57;
+const def = 79;
 
 
 
