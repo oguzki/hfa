@@ -179,6 +179,15 @@ function playerupdate() {
     artistname_miniplayer.textContent = hfa[trackindex].artistname;
 
     switch (trackindex) {
+        case 60:
+        case 58:
+            cover_fullplayer.style.height = "220px";
+            cover_miniplayer.style.height = "88px";
+            break;
+        case 59:
+            cover_fullplayer.style.height = "218px";
+            cover_miniplayer.style.height = "87px";
+            break;
         case 43:
             cover_fullplayer.style.height = "212px";
             cover_miniplayer.style.height = "85px";
