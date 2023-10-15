@@ -205,13 +205,13 @@ function playerupdate() {
             cover_miniplayer.style.height = "100px";
             break;
     }
-    cover_miniplayer.src = hfa[trackindex].cover;
-    background_miniplayer.style.backgroundImage = "url(" + hfa[trackindex].cover + ")";
-
-    //other
-    navigator.mediaSession.metadata = new MediaMetadata({
-        title: hfa[trackindex].songname,
-        artist: hfa[trackindex].artistname,
-        artwork: [{ src: hfa[trackindex].cover, sizes: '96x96', type: 'image/jpeg' }]
-    });
 }
+cover_miniplayer.src = hfa[trackindex].cover;
+background_miniplayer.style.backgroundImage = "url(" + hfa[trackindex].cover + ")";
+
+//other
+navigator.mediaSession.metadata = new MediaMetadata({
+    title: hfa[trackindex].songname,
+    artist: hfa[trackindex].artistname,
+    artwork: [{ src: hfa[trackindex].cover, sizes: '250x250', type: 'image/jpeg' }]
+});
