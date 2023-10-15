@@ -9,6 +9,7 @@
     background-color: #1A1A1D;
     overflow: auto;
     height: 1000px;
+    -webkit-tap-highlight-color: #36363665;
 }
 
 footer {
