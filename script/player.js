@@ -10,16 +10,22 @@ const background_fullplayer = document.getElementById('background_fullplayer');
 
 const nextsong_fullplayer = document.getElementById('nextsong_fullplayer');
 
+const playpause_fullplayer = document.getElementById('playpause_fullplayer');
+
 // mini player elements
 const songname_miniplayer = document.getElementById('songname_miniplayer');
 const artistname_miniplayer = document.getElementById('artistname_miniplayer');
 const cover_miniplayer = document.getElementById('cover_miniplayer');
 const background_miniplayer = document.getElementById('background_miniplayer');
 
+const playpause_miniplayer = document.getElementById('playpause_miniplayer');
+
 const miniplayer = document.getElementById('miniplayer');
 const miniplayer_info = document.getElementById('miniplayer_info');
 const miniplayer_pods = document.getElementById('miniplayer_pods');
 const miniplayer_layer = document.getElementById('miniplayer_layer');
+
+//other
 
 var perem = 'pause';
 
@@ -34,34 +40,28 @@ let updateTimer;
 
 player.volume = volume.value / 100;
 
+player.addEventListener('play', function () {
+    playpause_fullplayer.src = 'img/buttons/player_pause.svg';
+    playpause_miniplayer.src = 'img/buttons/player_pause.svg';
+});
+
+player.addEventListener('pause', function () {
+    playpause_fullplayer.src = 'img/buttons/player_play.svg';
+    playpause_miniplayer.src = 'img/buttons/player_play.svg';
+});
+
 function setVolume() {
     player.volume = volume.value / 100;
 }
 
 function playpause() {
-    if (songname_fullplayer.textContent === "⠀") {
-        playerstart();
+    if (perem === 'pause') {
+        player.pause();
+        perem = 'play';
     } else {
-        if (perem === 'pause') {
-            player.pause();
-            perem = 'play';
-            devpause();
-        } else {
-            player.play();
-            perem = 'pause';
-            devplay();
-        }
+        player.play();
+        perem = 'pause';
     }
-}
-
-function devplay() {
-    document.getElementById('pp').src = "img/buttons/player_play.svg";
-    document.getElementById('pp1').src = "img/buttons/player_play.svg";
-}
-
-function devpause() {
-    document.getElementById('pp').src = "img/buttons/player_pause.svg";
-    document.getElementById('pp1').src = "img/buttons/player_pause.svg";
 }
 
 function nextTrack() {
@@ -69,7 +69,6 @@ function nextTrack() {
         trackindex = def;
     } else {
         trackindex = trackindex - 1;
-        devplay();
     }
     playerstart();
 }
@@ -79,7 +78,6 @@ function prevTrack() {
         trackindex = 0;
     } else {
         trackindex = trackindex + 1;
-        devplay();
     }
     playerstart();
 }
@@ -145,7 +143,6 @@ function playerstart() {
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
-    devplay();
     player.src = "https://drive.google.com/uc?export=download&id=" + hfa[trackindex].music;
     player.load();
     playerupdate();
