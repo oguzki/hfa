@@ -45,8 +45,10 @@
                         src="img/buttons/player_next.svg"></a>
             </div>
             <div class="audioline">
+                <h3 style="color: white; font-family: opensans-light;">-</h3>
                 <input type="range" min="0" max="100" value="25" id="volume"
-                    style="cursor: pointer; accent-color: aqua; width: 200px;" onchange="setVolume()">
+                    style="cursor: pointer; accent-color: aqua; width: 200px; margin: 10px;" onchange="setVolume()">
+                <h3 style="color: white; font-family: opensans-light;">+</h3>
             </div>
             <a class="fullplayer_button" onclick="closeplayer()" style="margin-bottom: 60px;">↑ Close Player</a>
         </div>
@@ -230,7 +232,7 @@
     <div class="menu_trackcard" onclick="trackindex = 63, playerstart()">
         <img class="menu_cover" src="img/covers/karekano.jpg">
         <div>
-            <h2 class="menu_trackinfo">Tenshi no Yubikiri</h2>
+            <h2 class="menu_trackinfo">夢の中へ</h2>
             <h4 class="menu_trackinfo">Atsuko Enomoto, Chihiro Suzuki</h4>
         </div>
     </div>
@@ -238,7 +240,7 @@
     <div class="menu_trackcard" onclick="trackindex = 62, playerstart()">
         <img class="menu_cover" src="img/covers/karekano.jpg">
         <div>
-            <h2 class="menu_trackinfo">夢の中へ</h2>
+            <h2 class="menu_trackinfo">Tenshi no Yubikiri</h2>
             <h4 class="menu_trackinfo">Fukuda Mai</h4>
         </div>
     </div>
