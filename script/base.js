@@ -124,9 +124,9 @@ const hfa = [
     },
     {
         songname: '恋のうた',
-        artistname: 'Yunomi',
+        artistname: 'Yunomi, 由崎司',
         music: '1FS63jPRuWXn0UthPu84bHV61qM7eUEUM',
-        cover: 'img/covers/yunomi.jpg',
+        cover: 'img/covers/yu1.jpg',
     },
     {
         songname: 'Kiminosei',
@@ -482,6 +482,30 @@ const hfa = [
         music: '1zpE5KUthUYVeB9aoSKGxMFMGPNSz4EBq',
         cover: 'img/covers/changingpoint.jpg',
     },
+    {
+        songname: '刹那の誓い',
+        artistname: 'Neko Hacker, 由崎司',
+        music: '1x9-ylbu0l9meUdSfBkZnbVFg9uiMiiIK',
+        cover: 'img/covers/nh1.jpg',
+    },
+    {
+        songname: 'Danger in my 通学路',
+        artistname: '三谷裳ちお、野々村真奈菜、細川雪',
+        music: '1OPkipr29sYs-jZChkspDZ_mUdRDCPUDX',
+        cover: 'img/covers/dangerinmy.jpg',
+    },
+    {
+        songname: 'SWEET DROPS', 
+        artistname: 'PUFFY',
+        music: '1KWyT-_lH_6rjaD9cBh62ITJ758Z6nmnd',
+        cover: 'img/covers/sweetdrops.jpg',
+    },
+    {
+        songname: 'High High High', 
+        artistname: 'カサリンチュ',
+        music: '14tW-z-vODUWioxPLj-eDvW3qX7ssFUyL',
+        cover: 'img/covers/highhighhigh.jpg',
+    },
 
     //беда
     {
@@ -524,9 +548,9 @@ const hfa = [
     },
 ];
 
-let trackindex = 79;
+let trackindex = 83;
 
-const def = 79;
+const def = 83;
 
 
 
