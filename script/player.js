@@ -68,7 +68,7 @@ function nextTrack() {
     if (trackindex === 0) {
         trackindex = def;
     } else {
-        trackindex = trackindex - 1;
+        trackindex--;
     }
     playerstart();
 }
@@ -77,7 +77,7 @@ function prevTrack() {
     if (trackindex > (def - 1)) {
         trackindex = 0;
     } else {
-        trackindex = trackindex + 1;
+        trackindex++;
     }
     playerstart();
 }
@@ -212,4 +212,6 @@ function playerupdate() {
         artist: hfa[trackindex].artistname,
         artwork: [{ src: hfa[trackindex].cover, sizes: '250x250', type: 'image/jpeg' }]
     });
+    navigator.mediaSession.setActionHandler('previoustrack', prevTrack);
+    navigator.mediaSession.setActionHandler('nexttrack', nextTrack);
 }
