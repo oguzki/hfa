@@ -22,37 +22,25 @@
     z-index: 0;
 }
 
-#cover_fullplayer {
-    width: 250px;
-    height: 250px;
-    border-radius: 9px;
-}
-
-#nextsong_fullplayer {
-    margin-top: 25px;
-    color: white;
-    font-family: opensans-light;
-    text-align: center;
-}
-
 .seek_slider {
     height: 5px;
-    width: 200px;
+    width: 300px;
     cursor: pointer;
     accent-color: aqua;
 }
 
 #current-time,
 #total-duration {
-    padding: 10px;
-    font-family: opensans-light;
+    padding: 5px;
+    font-family: Poppins-ExtraLight;
     color: white;
 }
 
 .audioline {
-    margin: 15px;
     border-radius: 25px;
-    width: 400px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     height: 10px;
     display: flex;
     justify-content: center;
@@ -87,7 +75,7 @@
 
 .miniplayer_button,
 .fullplayer_button {
-    font-family: opensans-light;
+    font-family: Poppins-ExtraLight;
     text-decoration: none;
     padding: 0px 10px;
     cursor: pointer;
@@ -109,13 +97,6 @@
     height: 21px;
 }
 
-.songname,
-.artistname {
-    text-align: center;
-    font-family: opensans-light;
-    color: white;
-}
-
 #miniplayer_pods {
     height: 0px;
     width: 100%;
@@ -128,11 +109,36 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 470px;
+        width: 100%;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
         border: #1A1A1D solid 1px;
         z-index: 1;
+    }
+
+    #fullplayer_all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fullplayer_layer {
+        margin-left: 5px;
+        width: 400px;
+    }
+
+    #cover_fullplayer {
+        width: 250px;
+        border-radius: 9px;
+        margin-right: 5px;
+    }
+
+    #nextsong_fullplayer {
+        margin-bottom: 25px;
+        color: white;
+        font-family: Poppins-ExtraLight;
+        text-align: center;
     }
 
     .miniplayer_cover {
@@ -160,27 +166,25 @@
 
     #songname_fullplayer {
         font-size: 27px;
-        text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #artistname_fullplayer {
         font-size: 20px;
-        text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #songname_miniplayer {
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #artistname_miniplayer {
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 }
@@ -197,9 +201,36 @@
         z-index: 1;
     }
 
+    #fullplayer_layer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #fullplayer_all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #nextsong_fullplayer {
+        margin-top: 25px;
+        color: white;
+        font-family: Poppins-ExtraLight;
+        text-align: center;
+    }
+
     .miniplayer_cover {
         width: 0px;
         height: 0px;
+    }
+
+    #cover_fullplayer {
+        width: 250px;
+        margin-top: 25px;
+        border-radius: 9px;
     }
 
     #miniplayer_info {
@@ -221,28 +252,28 @@
     #songname_fullplayer {
         font-size: 28px;
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #artistname_fullplayer {
         font-size: 22px;
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #songname_miniplayer {
         font-size: 20px;
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 
     #artistname_miniplayer {
         font-size: 16px;
         text-align: center;
-        font-family: opensans-light;
+        font-family: Poppins-ExtraLight;
         color: white;
     }
 }

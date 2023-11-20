@@ -62,7 +62,6 @@ footer {
 }
 
 @media screen and (orientation: landscape) {
-
     .menu_quotes {
         text-align: center;
     }
@@ -71,14 +70,14 @@ footer {
         color: white;
         cursor: pointer;
         user-select: none;
-        font-family: opensans-light;
+        font-family: Poppins-Light;
     }
 
     h4.menu_trackinfo {
         color: white;
         cursor: pointer;
         user-select: none;
-        font-family: opensans-light;
+        font-family: Poppins-Light;
     }
 
     .menu_base {
@@ -113,7 +112,7 @@ footer {
         color: white;
         cursor: pointer;
         user-select: none;
-        font-family: opensans-light;
+        font-family: Poppins-Light;
         font-size: 22px;
     }
 
@@ -121,7 +120,7 @@ footer {
         color: white;
         cursor: pointer;
         user-select: none;
-        font-family: opensans-light;
+        font-family: Poppins-Light;
         font-size: 17px;
     }
 
