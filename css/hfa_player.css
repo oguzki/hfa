@@ -123,6 +123,11 @@
         align-items: center;
     }
 
+    #fullplayer_empty {
+        height: 250px;
+        width: 150px;
+    }
+
     #fullplayer_layer {
         margin-left: 5px;
         width: 400px;
