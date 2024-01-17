@@ -1,5 +1,7 @@
 const player = document.getElementById('player');
 
+const apikey = "your_api_key";
+
 var icon = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]');
 
 // full player elements
@@ -143,7 +145,7 @@ function playerstart() {
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
-    player.src = "https://drive.google.com/uc?export=download&id=" + hfa[trackindex].music;
+    player.src = "https://www.googleapis.com/drive/v3/files/" + hfa[trackindex].music + "?alt=media&key=" + apikey;
     player.load();
     playerupdate();
     updateTimer = setInterval(setUpdate, 1000);
