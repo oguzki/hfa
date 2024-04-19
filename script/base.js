@@ -136,7 +136,7 @@ const hfa = [
     },
     {
         songname: 'Fukashigi no Carte',
-        artistname: '///',
+        artistname: '---',
         music: '14smfoxHPoFcxeJM474aTh9BQ9mBsBgQC',
         cover: 'img/covers/fukashiginocarte.jpg',
     },
