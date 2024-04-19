@@ -13,12 +13,13 @@
 }
 
 footer {
-    background-color: #363636;
+    background-color: #1A1A1D;
     height: 60px;
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
     align-items: center;
+    border-top: 1px solid white;
 }
 
 .menu_buttons {
@@ -89,6 +90,7 @@ footer {
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center center;
+        border-bottom: 1px solid white;
     }
 
     .menu_logo {
@@ -135,6 +137,7 @@ footer {
         background-size: 100%;
         background-position: center center;
         text-align: center;
+        border-bottom: 1px solid white;
     }
 
     .menu_logo {
